@@ -12,7 +12,7 @@ public class PasswordChecker {
             System.out.print("Enter password, or -1 to exit. : ");
             String password = scanner.nextLine();
             if (password.equals(String.valueOf(SENTINEL))) {
-                System.out.println("Sentinel value inputted. Exiting...");
+                System.out.println("Exiting...");
                 break;
             }
 

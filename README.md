@@ -18,7 +18,7 @@ Both checks are types of attacks that can be used to crack a password:
 
 
 In this example, a sample "dictionary.txt" file is included. It contains 500 common English words, which the application takes in and checks. 
-Regardless of the password complexity or length, if either of these checks pass against the inputed password, the application will see the input as a weak password.
+Regardless of the password complexity or length, if either of these checks pass against the inputed password, the application will see the input as a weak password. However, the brute-force check will almost certaintly pass against any inputed password, as it will run every possible combination of characters. Still, if there is no output, that is an indication that the inputted password is strong.
 
 It is also important to note that, in the real world, hackers may have access to more powerful and efficient computers that have the capability to run a brute-force attack efficiently, and also a dictionary-check attack with a longer list of words far larger than 500.
 

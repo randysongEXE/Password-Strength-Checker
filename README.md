@@ -1,4 +1,4 @@
-# PasswordStrengthChecker
+# Password Strength Checker
 
 This application takes in a user-inputted password and checks its strength. More specifically, several different factors are checked to identify a strong password:
 - the password's length should be 8 characters or longer
